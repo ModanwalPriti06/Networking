@@ -8,7 +8,9 @@
 4. MAN - (MetroPolitan Area N/W)  Covers a city or large campus, 5-50km.
 5. WAN - (Wide Area N/W) - Connects devices over large distances (e.g., the Internet) Above 50Km.
 
-# TCP/IP Protocols
+# TCP/IP and OSI Model Protocols
+- Developed By ARPANET
+- Support Client to Server and Peer-to-Peer
 <img src="https://cdn.bunny.pictures/images/What-is-the-OSI-model-and-encapsulation-vs-TCP-IP.png" alt="OSI Model" width="700">
 
 
