@@ -9,7 +9,7 @@
 5. WAN - (Wide Area N/W) - Connects devices over large distances (e.g., the Internet) Above 50Km.
 
 # TCP/IP Protocols
-<img src="https://www.indusface.com/wp-content/uploads/2023/09/OSI-Model-7-layers.png" alt="OSI Model" width="700">
+<img src="https://cdn.bunny.pictures/images/What-is-the-OSI-model-and-encapsulation-vs-TCP-IP.png" alt="OSI Model" width="700">
 
 
 
