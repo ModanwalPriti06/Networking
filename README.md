@@ -87,4 +87,3 @@
 ## Firewall
 - A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predefined security rules
 
-
