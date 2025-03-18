@@ -22,4 +22,69 @@
 5. Tree Topology - A hybrid of star and bus topology where multiple star networks are connected to a backbone cable.
 6. Hybrid Topology - A combination of two or more different topologies.
 
+# Various Device in Computer Networking
+- Cabel + Repeaters + hub (hardware)
+- Bridges + Switches + Router (hardware/software)
+- Gateway + firewall + IDs (Security purpose use) + Modem
+
+## Cabel  ( 10 base = 10 mbps, T = 100 meter)
+- A cable in networking is a physical medium used to transmit data between devices.
+1. Twisted Pair Cable (Ethernet Cable - LAN Cable) - 10 Base T, 100 Base T
+2. Coaxial Cable - 10 Base 2 , 10 Base 5
+3. Fiber Optic Cable - 100 Base fx
+4. USB Cable - Used to connect computers to peripherals 
+5. HDMI Cable - Used for transmitting audio and video signals
+
+## Repeater
+- Work on Physical layer ( work on hardware)
+- 10 Base 2
+- 2 port devices
+- No filtering
+- Regenrate the strength ( based on original energy)
+
+## Hub
+- A hub is a basic networking device that connects multiple computers or devices in a local area network (LAN) and allows data to be transmitted between them.
+- Work on Physical layer.
+- Multiport Repeater ( 4ports, 8, 16, 32 etc)
+- No filtering
+- Collision Domain
+
+## Bridges
+- layer2 - Data link layer
+- Connect 2 difference LANs
+- Filtering
+- Collision Domain
+- Bridge can check mac address ( to check source to destination mac address)
+- Two Types: Static and Dynamic Bridges
+
+## Switch
+- Layer2 (data link layer, physical layer) device
+- Multiport Bridges ( connect multiple devices in LAN)
+- Full Duplex Link (both side can send data same time)
+- Traffic is minimal
+- Collision Domain is 0
+
+## Router
+- Layer 3 (Network layer, data link layer, physical layer)
+- Use to connect 2 different n/w.
+- Internet (WAN)  - collection of different n/w.
+- Router use routing table (maintain  packet connected how many network)
+- Multiple network can connect
+- Filtering, forwording
+- Collision Domain 0 ( Store and forward method follow)
+
+## Gateway
+- A gateway is a networking device that connects two different networks using different communication protocols.
+- Network Layer (Layer 3)
+- Firewall & Security
+  
+#### Types of Gateways:
+1. Network Gateway – Connects different IP networks (e.g., Internet to a private network).
+2. VoIP Gateway – Converts voice signals (analog ↔ digital) for phone systems.
+3. Cloud Gateway – Connects on-premise networks to cloud services.
+4. Email Gateway – Filters and scans emails for security threats.
+   
+## Firewall
+- A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predefined security rules
+
 
