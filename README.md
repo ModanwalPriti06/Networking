@@ -87,3 +87,54 @@
 ## Firewall
 - A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predefined security rules
 
+# IP Address
+- An IP Address (Internet Protocol Address) is a unique identifier assigned to devices connected to a network, allowing them to communicate with each other.
+1. IPv4 (Internet Protocol Version 4)
+2. -   Format: 192.168.1.1 (4 sets of numbers, 0-255)
+   -   32-bit address, supports ~4.3 billion devices
+3. IPv6 (Internet Protocol Version 6)
+4. - Format: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+   - 128-bit address, supports a massive number of devices
+
+## Classess Addressing
+1. Class A (Large Networks)
+2. Class B (Medium Networks)
+3. Class C (Small Networks)
+4. Class D (Multicasting)
+5. Class E (Experimental)
+
+## DNS (Domain Name System)
+- DNS converts domain names (e.g., google.com) into IP addresses (142.250.183.206). Without DNS, we would need to remember IP addresses instead of domain names!
+- Easy to search because IP address is dynamic and domain name is same every time.
+- .com, .in. .org, .edu, .mil etc.
+- There are 13 root servers worldwide, (Root servers are the top-level servers in the DNS hierarchy that help resolve domain names to IP addresses).
+
+## 📌 Difference Between TCP and UDP
+- TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are both transport layer protocols used for sending data over networks, but they differ in reliability, speed, and use cases.
+
+## Application Protocol - DNS, HTTP, SMPT, FTP, POP
+
+#### HTTP
+1. Port No 80
+2. Inband Protocol
+3. Stateless
+4. HTTP 1.0 Not Persistent ( payment section, otp section)
+5. HTTP 1.1 Persistent (gmail etc)
+6. Commands ( get, put, post, patch, delete, connect)
+
+## FTP
+1. Port No 20 (Data) and 21 (Control)
+2. Data connection is non-persistent
+3. Control connection is persistent
+4. Not Inband
+5. Reliable
+6. Stateful
+
+## SMTP && POP
+1. FTP is synchronous but SMTP & POP both are synchronous and asynchronous.
+2. SMTP Port no 25 pushing the mail.
+3. By default, the POP3 Protocol works on 2 ports-
+   -  PORT 110 (this is default), POP3 non-encrypted port.
+   -  PORT 995 - this is the port you need to use if you want to connect using POP3 securely.
+5. MIME(Multipurpose Internet Mail Extension).
+
